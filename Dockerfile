@@ -19,7 +19,7 @@ ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm install
 
 COPY server.js .
 
