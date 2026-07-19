@@ -1,0 +1,11 @@
+{
+  "name": "bypass-server",
+  "version": "1.0.0",
+  "main": "bypass-server.js",
+  "scripts": {
+    "start": "node bypass-server.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.15.0"
+  }
+}
